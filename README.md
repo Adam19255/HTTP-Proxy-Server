@@ -12,9 +12,11 @@ ProxyServer is a robust, multithreaded HTTP proxy server implemented in C. It ha
 
 ## Usage
 
-Compile the program: gcc -o proxyServer proxyServer.c threadpool.c -lpthread
+Compile the program: 
+gcc -o proxyServer proxyServer.c threadpool.c -lpthread
 
-Run the program: ./proxyServer <port> <pool-size> <max-number-of-request> <filter>
+Run the program: 
+./proxyServer <port> <pool-size> <max-number-of-request> <filter>
 
 - `<port>`: Port number on which the proxy server will listen
 - `<pool-size>`: Number of threads in the thread pool
